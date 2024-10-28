@@ -1,0 +1,32 @@
+.login {    
+    /* bg-white sticky shadow z-50 font-serif mt-0 w-full convert this into normal css */
+        background-color: white; 
+        position: sticky;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        z-index: 50;
+        font-family: serif;
+        margin-top: 0;
+        width: 100%;
+      }
+      .container {
+        /* container  flex justify-between items-center */
+        max-width: 100%; /* Tailwind's container class typically has max-width set */
+        margin-left: auto; /* Aligns container in the center */
+        margin-right: auto; /* Aligns container in the center */
+        display: flex; /* flex */
+        justify-content: space-between; /* justify-between */
+        align-items: center; /* items-center */
+      }
+      .flex {
+        /* flex flex-wrap */
+            display: flex; /* flex */
+            flex-wrap: wrap; /* flex-wrap */
+          }
+          
+      .img1{
+        /* mr-3 h-12  mt-4 rounded-xl */
+            margin-right: 0.75rem; /* mr-3 (3 * 0.25rem) */
+            height: 3rem; /* h-12 (12 * 0.25rem) */
+            margin-top: 1rem; /* mt-4 (4 * 0.25rem) */
+            border-radius: 0.75rem; /* rounded-xl (0.75rem) */}
+      
